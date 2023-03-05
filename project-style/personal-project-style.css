@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: #d5d5d5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 240px;
+    background: #323232;
+    background-position: top;
+    background-repeat: repeat, no-repeat;
+    background-size: auto, cover;
+}
+
+.logo {
+    margin: 3rem;
+    width: 24rem;
+    height: 7rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 5rem;
+}
+
+.lng-link1,
+.lng-link2,
+.lng-link3,
+.lng-link4 {
+    align-items: center;
+    padding-right: 3.5rem;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    color: #ffffff;
+}
+
+.lng-link1:hover,
+.lng-link2:hover,
+.lng-link3:hover,
+.lng-link4:hover {
+    color: #cd0e2d;
+}
+
+.slider {
+    position: relative;
+    width: 50em;
+    height: 30em;
+    margin: 50px auto 0;
+    user-select: none;
+    touch-action: pan-y;
+}
+
+.slide_img {
+    pointer-events: none;
+    width: 50em;
+    height: 30em;
+}
+
+.slider-list {
+    width: 50em;
+    height: 30em;
+    overflow: hidden;
+}
+
+.slider-list.grab {
+    cursor: grab;
+}
+
+.slider-list.grabbing{
+    cursor: grabbing;
+}
+
+.slider-track {
+    display: flex;
+}
+
+.slide {
+    width: 50em;
+    height: 30em;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-arrows {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.next,
+.prev {
+    background: none;
+    border: none;
+    margin: 0 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.next.disabled,
+.prev.disabled {
+    opacity: .25;
+    pointer-events: none;
+}
+
+.under_slider_info {
+    margin: 4em;
+}
+
+.under_slider_info a {
+    text-decoration: none;
+    color: #233b44;
+    font-size: 1.1em;
+}
+
+.hover_a:hover {
+    color: #cd0e2d;
+}
+
+.page_info {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+}
+
+.left_info_column h2 {
+    color: #233b44;
+    font-size: 1.6em;
+    margin-top: 1em;
+}
+
+.left_info_column p {
+    color: #233b44;
+}
+
+.project_type {
+    font-size: 1.2em;
+}
+
+.project_info {
+    margin-top: 40px;
+    font-size: 1.1em;
+    max-width: 700px;
+}
+
+.left_info_column div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+
+.web_link {
+    margin-right: 1em;
+    font-size: 1em;
+}
+
+.link_to_web {
+    text-decoration: none;
+    font-weight: 700;
+    color: #d5d5d5;
+    width: 150px;
+    height: 45px;
+    background-color: #cd0e2d;
+    text-align: center;
+    padding-top: 1.5em;
+    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.3);
+    border-radius: 1em;
+}
+
+.right_info_column {
+    padding: 30px;
+    margin-right: 5em;
+    border-left: solid 2px #233b4476;
+}
+
+.project_place,
+.project_realize {
+    font-size: 1.2em;
+    color: #233b44;
+    margin-bottom: 0.6em;
+}
+
+.adress_text,
+.date_text {
+    color: #cd0e2d;
+    font-size: 2em;
+    margin-bottom: 0.6em;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 30rem;
+    height: 100%;
+    background-color: #233b44;
+    margin-top: 4em;
+}
+
+.logo_footer {
+    margin: 3rem;
+    width: 24rem;
+    height: 7rem;
+}
+
+.foot_name {
+    align-self: center;
+    margin-top: 4rem;
+    padding: 0.5rem;
+    color: #FFFFFF;
+}
+
+.foot_copr {
+    align-self: center;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+}
+
+.foot_menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 5rem;
+}
+
+.footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lng-foot_link1,
+.lng-foot_link2,
+.lng-foot_link3,
+.lng-foot_link4 {
+    text-decoration: none;
+    padding-right: 2.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    opacity: 0.5;
+    height: 100%;
+    color: #FFFFFF;
+}
+
+.lng-foot_link1:hover,
+.lng-foot_link2:hover,
+.lng-foot_link3:hover,
+.lng-foot_link4:hover {
+    color: #cd0e2d;
+}
