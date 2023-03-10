@@ -16,13 +16,13 @@
     margin-bottom: 200px;
     margin-right: 120px;
     position: relative;
-}
-
-.carrosel {
     transform-style: preserve-3d;
     transform: perspective(250px);
     -webkit-transform: perspective(250px);
     -moz-transform: perspective(250px);
+}
+
+.carrosel {
     width: 400px;
     height: 200px;
     top: 50px;
