@@ -71,7 +71,7 @@
 
 @keyframes slider {
     from {
-        transform: rotateY(360deg)  rotateY(-360deg);
+        transform: rotateY(360deg) translateX(130px) rotateY(-360deg);
         z-index: 10;
         opacity: 1
     }
@@ -81,7 +81,7 @@
     }
 
     to {
-        transform: rotateY(0deg)  rotateY(0deg);
+        transform: rotateY(0deg) translateX(130px) rotateY(0deg);
         z-index: 10;
         opacity: 1
     }
@@ -89,7 +89,7 @@
 
 @-webkit-keyframes slider {
     from {
-        -webkit-transform: rotateY(360deg)  rotateY(-360deg);
+        -webkit-transform: rotateY(360deg) translateX(130px) rotateY(-360deg);
         z-index: 10;
         opacity: 1
     }
@@ -99,7 +99,7 @@
     }
 
     to {
-        -webkit-transform: rotateY(0deg)  rotateY(0deg);
+        -webkit-transform: rotateY(0deg) translateX(130px) rotateY(0deg);
         z-index: 10;
         opacity: 1
     }
@@ -107,7 +107,7 @@
 
 @-moz-keyframes slider {
     from {
-        -moz-transform: rotateY(360deg)  rotateY(-360deg);
+        -moz-transform: rotateY(360deg) translateX(130px) rotateY(-360deg);
         z-index: 10;
         opacity: 1
     }
@@ -117,7 +117,7 @@
     }
 
     to {
-        -moz-transform: rotateY(0deg)  rotateY(0deg);
+        -moz-transform: rotateY(0deg) translateX(130px) rotateY(0deg);
         z-index: 10;
         opacity: 1
     }
