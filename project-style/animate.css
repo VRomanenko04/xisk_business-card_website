@@ -20,6 +20,7 @@
     transform: perspective(250px);
     -webkit-transform: perspective(250px);
     -moz-transform: perspective(250px);
+    -ms-transform: perspective(250px);
 }
 
 .carrosel {
