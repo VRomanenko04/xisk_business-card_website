@@ -17,10 +17,6 @@
     margin-right: 120px;
     position: relative;
     transform-style: preserve-3d;
-    transform: perspective(250px);
-    -webkit-transform: perspective(250px);
-    -moz-transform: perspective(250px);
-    -ms-transform: perspective(250px);
 }
 
 .carrosel {
@@ -73,7 +69,7 @@
 
 @keyframes slider {
     from {
-        transform: rotateY(360deg) translateX(130px) rotateY(-360deg);
+        transform: perspective(250px) rotateY(360deg) translateX(130px) rotateY(-360deg);
         z-index: 10;
         opacity: 1
     }
@@ -83,7 +79,7 @@
     }
 
     to {
-        transform: rotateY(0deg) translateX(130px) rotateY(0deg);
+        transform: perspective(250px) rotateY(0deg) translateX(130px) rotateY(0deg);
         z-index: 10;
         opacity: 1
     }
@@ -91,7 +87,7 @@
 
 @-webkit-keyframes slider {
     from {
-        -webkit-transform: rotateY(360deg) translateX(130px) rotateY(-360deg);
+        -webkit-transform: perspective(250px) rotateY(360deg) translateX(130px) rotateY(-360deg);
         z-index: 10;
         opacity: 1
     }
@@ -101,7 +97,7 @@
     }
 
     to {
-        -webkit-transform: rotateY(0deg) translateX(130px) rotateY(0deg);
+        -webkit-transform: perspective(250px) rotateY(0deg) translateX(130px) rotateY(0deg);
         z-index: 10;
         opacity: 1
     }
@@ -109,7 +105,7 @@
 
 @-moz-keyframes slider {
     from {
-        -moz-transform: rotateY(360deg) translateX(130px) rotateY(-360deg);
+        -moz-transform: perspective(250px) rotateY(360deg) translateX(130px) rotateY(-360deg);
         z-index: 10;
         opacity: 1
     }
@@ -119,7 +115,7 @@
     }
 
     to {
-        -moz-transform: rotateY(0deg) translateX(130px) rotateY(0deg);
+        -moz-transform: perspective(250px) rotateY(0deg) translateX(130px) rotateY(0deg);
         z-index: 10;
         opacity: 1
     }
