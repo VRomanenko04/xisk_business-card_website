@@ -17,6 +17,9 @@
     margin-right: 120px;
     position: relative;
     transform-style: preserve-3d;
+    perspective: 250px;
+    -webkit-perspective: 250px;
+    -moz-perspective: 250px;
 }
 
 .carrosel {
@@ -69,7 +72,7 @@
 
 @keyframes slider {
     from {
-        transform: perspective(250px) rotateY(360deg) translateX(130px) rotateY(-360deg);
+        transform: rotateY(360deg) translateX(130px) rotateY(-360deg);
         z-index: 10;
         opacity: 1
     }
@@ -79,7 +82,7 @@
     }
 
     to {
-        transform: perspective(250px) rotateY(0deg) translateX(130px) rotateY(0deg);
+        transform: rotateY(0deg) translateX(130px) rotateY(0deg);
         z-index: 10;
         opacity: 1
     }
@@ -87,7 +90,7 @@
 
 @-webkit-keyframes slider {
     from {
-        -webkit-transform: perspective(250px) rotateY(360deg) translateX(130px) rotateY(-360deg);
+        -webkit-transform: rotateY(360deg) translateX(130px) rotateY(-360deg);
         z-index: 10;
         opacity: 1
     }
@@ -97,7 +100,7 @@
     }
 
     to {
-        -webkit-transform: perspective(250px) rotateY(0deg) translateX(130px) rotateY(0deg);
+        -webkit-transform: rotateY(0deg) translateX(130px) rotateY(0deg);
         z-index: 10;
         opacity: 1
     }
@@ -105,7 +108,7 @@
 
 @-moz-keyframes slider {
     from {
-        -moz-transform: perspective(250px) rotateY(360deg) translateX(130px) rotateY(-360deg);
+        -moz-transform: rotateY(360deg) translateX(130px) rotateY(-360deg);
         z-index: 10;
         opacity: 1
     }
@@ -115,7 +118,7 @@
     }
 
     to {
-        -moz-transform: perspective(250px) rotateY(0deg) translateX(130px) rotateY(0deg);
+        -moz-transform: rotateY(0deg) translateX(130px) rotateY(0deg);
         z-index: 10;
         opacity: 1
     }
