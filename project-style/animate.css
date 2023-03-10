@@ -19,10 +19,10 @@
 }
 
 .carrosel {
-    perspective: 250px;
-    -moz-perspective: 250px;
-    -webkit-perspective: 250px;
     transform-style: preserve-3d;
+    transform: perspective(250px);
+    -webkit-transform: perspective(250px);
+    -moz-transform: perspective(250px);
     width: 400px;
     height: 200px;
     top: 50px;
