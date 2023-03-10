@@ -14,7 +14,8 @@
     scroll-behavior: smooth;
     margin-top: 100px;
     margin-bottom: 200px;
-    margin-right: 140px;
+    margin-right: 120px;
+    position: relative;
 }
 
 .carrosel {
@@ -25,7 +26,6 @@
     width: 400px;
     height: 200px;
     top: 50px;
-    position: relative;
     margin: 0 auto;
 }
 
