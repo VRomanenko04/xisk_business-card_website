@@ -21,6 +21,7 @@
     perspective: 250px;
     -moz-perspective: 250px;
     -webkit-perspective: 250px;
+    transform-style: preserve-3d;
     width: 400px;
     height: 200px;
     top: 50px;
