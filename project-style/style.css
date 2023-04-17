@@ -60,7 +60,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0;
     margin-bottom: 100px;
 }
 
@@ -309,4 +308,56 @@
 
 .side_btn-en:hover {
     cursor: pointer;
+}
+
+/* Карусель главная страница */
+.slider_container {
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main_slider {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease;
+}
+
+.slider__card {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.slider__card img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    padding: 20px;
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+}
+
+.main_slider:hover .card-text {
+    background-color: #cd0e2d;
+}
+
+.active-card {
+    opacity: 1;
 }

@@ -167,22 +167,6 @@
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
-    .caixa__card {
-        width: 150px;
-        height: 100px;
-    }
-    .caixa__card.cc__1,
-    .caixa__card.cc__2,
-    .caixa__card.cc__3,
-    .caixa__card.cc__4,
-    .caixa__card.cc__5,
-    .caixa__card.cc__6,
-    .caixa__card.cc__7,
-    .caixa__card.cc__8 {
-        width: 180px;
-        height: 120px;
-    }
-
     .side_btn-en {
         width: 1.5rem;
         height: 1.5rem;
