@@ -177,6 +177,34 @@
         height: 1.5rem;
         font-size: 14px;
     }
+    .slider_container {
+        height: 230px;
+    }
+    .slider__card,
+    .slider__card img {
+        width: 330px;
+        height: 230px;
+    }
+    .sexy-btn {
+        width: 250px;
+        height: 70px;
+    }
+    .sexy-btn span {
+        font-size: 16px;
+        letter-spacing: 1.5px;
+    }
+    .xisk_do_back-text {
+        font-size: 76px;
+        padding-left: 1rem;
+    }
+    .lng-our_specialization {
+        margin: 0.5rem;
+        font-size: 18px;
+    }
+    .we_do_list {
+        padding-left: 0.5rem;
+        padding-bottom: 2rem;
+    }
 }
 
 @media (max-width: 350px) {
@@ -209,6 +237,14 @@
     }
     .lng-invest_text {
         font-size: 14px;
+    }
+    .slider_container {
+        height: 190px;
+    }
+    .slider__card,
+    .slider__card img {
+        width: 270px;
+        height: 190px;
     }
 }
 
